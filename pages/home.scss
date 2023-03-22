@@ -1,0 +1,49 @@
+ion-icon{
+    font-size: 30px;
+}
+.header{
+    background-color: black;
+}
+.imgdiv{
+    width: 80%;
+    margin: 10px auto;
+    height: 500px;
+    display: flex;
+    gap: 10px;
+
+}
+.imgwide{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.sideimgs{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 10px;
+}
+.breakingnews{
+    width: 80%;
+    height: 50px;
+    margin: 10px auto;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+}
+.img2{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+.a1{
+    width: 100%;
+    text-decoration: none;
+}
+.imgwide{
+    filter: brightness(50%);
+}
+.breakinglink{
+    text-decoration: none;
+    color: black;
+}
