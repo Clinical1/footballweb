@@ -4,13 +4,12 @@ ion-icon{
 .header{
     background-color: black;
 }
-.imgdiv{
+.imgdiv,.imgdiv2{
     width: 80%;
     margin: 10px auto;
     height: 500px;
     display: flex;
     gap: 10px;
-
 }
 .imgwide{
     width: 100%;
@@ -20,7 +19,7 @@ ion-icon{
 .sideimgs{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 50%;
     gap: 10px;
 }
 .breakingnews{
@@ -31,19 +30,66 @@ ion-icon{
     display: flex;
     align-items: center;
 }
-.img2{
-    width: 100%;
-    height: 50%;
-    background-color: black;
-}
 .a1{
     width: 100%;
     text-decoration: none;
 }
-.imgwide{
+.imgwide,.imgwide2{
     filter: brightness(50%);
 }
 .breakinglink{
     text-decoration: none;
     color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sideimgdiv{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.a2{
+    height:100%;
+    text-decoration: none;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 1px solid black;  
+    filter: brightness(50%)
+}
+.bottomimgwide{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.imgwide2{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+.a3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;    
+    .imgtext{
+        bottom: 20px;
+        padding: 20px;
+        .imgheader{
+            color: black;
+        }
+        .imgbottom{
+            color: black;     
+        }
+    }
+}
+.imgdiv2{
+    height: 350px;
 }

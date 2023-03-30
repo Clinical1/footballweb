@@ -18,18 +18,18 @@ function Article(props:proptypes) {
         <a href={link} className={linkclass}>
             <img className={classname} src={image}/>
             <div className='imgtext'>
-            <div className='imgleague'>
-                <p>{league}</p>
-            </div>
-            <h1 className='imgheader'>{title}</h1>
-            <div className='imgbottomdiv'>
-                {/* @ts-ignore */}
-                <div className='imgbottom'><ion-icon name="person"></ion-icon>{person}</div>
-                {/* @ts-ignore */}
-                <div className='imgbottom'><ion-icon name="alarm-sharp"></ion-icon>{date}</div>
-                {/* @ts-ignore */}
-                <div className='imgbottom'><ion-icon name="location-sharp"></ion-icon>{location}</div>
-            </div>  
+                <div className='imgleague'>
+                    <p>{league}</p>
+                </div>
+                <h1 className='imgheader'>{title}</h1>
+                <div className='imgbottomdiv'>
+                    {/* @ts-ignore */}
+                    <div className='imgbottom'><ion-icon name="person"></ion-icon>{person}</div>
+                    {/* @ts-ignore */}
+                    <div className='imgbottom'><ion-icon name="alarm-sharp"></ion-icon>{date}</div>
+                    {/* @ts-ignore */}
+                    <div className='imgbottom'><ion-icon name="location-sharp"></ion-icon>{location}</div>
+                </div>  
             </div>
         </a>
   )

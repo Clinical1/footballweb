@@ -16,17 +16,16 @@ const Navbar =()=>{
                 <Box height="100px" width="80%" margin="0px auto" display="flex">
                 <Box display="flex" alignItems="center" gap="20px">
                     {/* @ts-ignore */}
-                    <ion-icon name="newspaper-sharp"></ion-icon>
+                    <ion-icon name="newspaper-sharp" ></ion-icon>
                     <h1>4TransferNews</h1>
                 </Box>
                 </Box>
             </div>
         </div>
         <nav className='nav'>
-            <Link to="/" className='link'><button className='btn'>btn</button></Link>
-            <Link to="2" className='link'><button className='btn'>btn</button></Link>
-            <Link to="3" className='link'><button className='btn'>btn</button></Link>
-            <Link to="4" className='link'><button className='btn'>btn</button></Link>
+            <Link to="/" className='link'><button className='btn'>Preimer league</button></Link>
+            <Link to="2" className='link'><button className='btn'>La liga</button></Link>
+            <Link to="3" className='link'><button className='btn'>Ligue 1</button></Link>
         </nav>
         </>
     )
