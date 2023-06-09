@@ -1,19 +1,35 @@
 .nav{
-    background-color: black;
+    background-image: linear-gradient(to right ,#D2042D , green);
     width: 80%;
-    height: 50px;
+    height: 40px;
     margin: 0px auto;
+    display: flex;
+}
+.header{
+    background-image: linear-gradient(to right ,#D2042D, green);
 }
 .btn{
     height: 100%;
     color: white;
     background-color: inherit;
-    width: 100px;
+    width: 150px;
     cursor: pointer;
     transition: all .5s;
+    border: 1px white;
+    border-style: none solid none solid;
+    font-size: 17px;
     &:hover{
-        background-color: white;
-        border: 0px;
-        color: black;
+        background-color: green;
     }
+}
+.arrowimg{
+    height: 50px;
+}
+.navtitle{
+    background-image: linear-gradient(to right ,#D2042D , green);
+    background-clip: text;
+    color: transparent;
+}
+.epl,.laliga{
+    width: 25px;
 }

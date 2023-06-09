@@ -1,95 +1,11 @@
 ion-icon{
     font-size: 30px;
 }
-.header{
-    background-color: black;
-}
-.imgdiv,.imgdiv2{
+.home{
     width: 80%;
-    margin: 10px auto;
-    height: 500px;
-    display: flex;
-    gap: 10px;
+    margin: 0px auto;
+    display: flex;  
 }
-.imgwide{
+.secondhalf{
     width: 100%;
-    height: 100%;
-    background-color: black;
-}
-.sideimgs{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 10px;
-}
-.breakingnews{
-    width: 80%;
-    height: 50px;
-    margin: 10px auto;
-    background-color: rgb(243, 243, 243);
-    display: flex;
-    align-items: center;
-}
-.a1{
-    width: 100%;
-    text-decoration: none;
-}
-.imgwide,.imgwide2{
-    filter: brightness(50%);
-}
-.breakinglink{
-    text-decoration: none;
-    color: black;
-    border-radius: 10px;
-    padding: 10px;
-}
-.sideimgdiv{
-    background-color: rgb(243, 243, 243);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-.a2{
-    height:100%;
-    text-decoration: none;
-}
-.img2{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    border: 1px solid black;  
-    filter: brightness(50%)
-}
-.bottomimgwide{
-    background-color: rgb(243, 243, 243);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-.imgwide2{
-    width: 50%;
-    height: 100%;
-    background-color: black;
-}
-.a3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    height: 100%;    
-    .imgtext{
-        bottom: 20px;
-        padding: 20px;
-        .imgheader{
-            color: black;
-        }
-        .imgbottom{
-            color: black;     
-        }
-    }
-}
-.imgdiv2{
-    height: 350px;
 }

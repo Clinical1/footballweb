@@ -1,0 +1,15 @@
+.tableframe{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.tableheader{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    .numbers,.teams,.played,.won,.draw,.loss,.gd,.points{
+        display: flex;
+        align-items: center;
+        justify-content: unset;
+    }
+}

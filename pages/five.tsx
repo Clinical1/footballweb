@@ -6,7 +6,7 @@ type proptypes ={
   teamname:string;
 }
 
-const Third =(props:proptypes)=>{
+const Five =(props:proptypes)=>{
   const {teamname} = props
     return(
         <div className='home'>
@@ -18,4 +18,4 @@ const Third =(props:proptypes)=>{
         </div> 
     )
 }
-export default Third;
+export default Five;
